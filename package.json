@@ -1,21 +1,22 @@
 {
-    "name" : "typescript-gama",
-    "version" : "1.0.0",
-    "description" : "",
-    "main" : "index.js",
+    "name": "typescript-gama",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-        "start": "node index.ts",
-        "test": "echo \"error: no test specified\" && exit !"
-    }
+    "build": "tsc index.ts",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
     "repository": {
-        "type": "git",
-        "url": "https://github.com/claytonrh/typescript-gama.git"
-    }
+    "type": "git",
+    "url": "https://github.com/claytonrh/typescript-gama.git"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/claytonrh/typescript-gama.issues"
+    "url": "https://github.com/claytonrh/typescript-gama/issues"
     },
     "homepage": "https://github.com/claytonrh/typescript-gama#readme"
-}
+    }
